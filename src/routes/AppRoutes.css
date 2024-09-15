@@ -1,0 +1,10 @@
+.main-content {
+  padding-top: 98px;
+}
+
+/* Móvil */
+@media (max-width: 992px) {
+  .main-content {
+    padding-top: 142px;
+  }
+}

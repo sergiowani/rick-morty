@@ -1,0 +1,14 @@
+.load-more-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.load-more-text:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 3px;
+}

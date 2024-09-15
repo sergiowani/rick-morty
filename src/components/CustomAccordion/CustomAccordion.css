@@ -1,0 +1,29 @@
+.accordion-img {
+  margin-right: 50px;
+}
+
+.accordion-body {
+  color: gray;
+}
+
+.accordion-title {
+  font-weight: bold;
+}
+
+/* modificación estilos bootstrap */
+.custom-accordion .accordion-button,
+.custom-accordion .accordion-button:not(.collapsed)  {
+  color: inherit; /* Color inicial sea el predeterminado */
+  background-color: inherit; /* Color de fondo sea el predeterminado */
+  box-shadow: none;
+}
+
+.custom-accordion .accordion-item {
+  overflow: hidden; /* Contenido no sobresalga */
+  border: none;
+}
+
+/* Estilos para cuando el acordeón está expandido */
+.custom-accordion .accordion-item.expanded {
+  border: 2px solid blue;
+}

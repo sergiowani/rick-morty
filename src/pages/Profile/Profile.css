@@ -1,0 +1,56 @@
+.profile-row {
+  min-height: 100vh;
+  margin-top: -98px !important;
+}
+
+.profile-img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.div-profile-essential,
+.episode-accordion {
+  margin-bottom: 50px;
+}
+
+.location-accordion,
+.episode-accordion {
+  width: 355px;
+}
+
+.profile-button {
+  opacity: 0.6;
+  padding: 6px 100px !important;
+  background-color: #40BFFF;
+}
+
+/* status */
+.status-alive {
+  color: green;
+  font-weight: bold;
+}
+
+.status-dead {
+  color: red;
+  font-weight: bold;
+}
+
+.status-unknown {
+  color: blue;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+
+/* Móvil */
+@media (max-width: 992px) {
+  .profile-row {
+    margin-top: -142px !important;
+  }
+}

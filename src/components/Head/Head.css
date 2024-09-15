@@ -1,0 +1,46 @@
+.title {
+  font-size: 3rem !important;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.navbar-content {
+  width: 100%;
+  position: relative;
+}
+
+.navbar-center {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.navbar-right {
+  position: absolute;
+  right: 6%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar-color {
+  background-color: #FFFFFF !important;
+}
+
+/* Móvil */
+@media (max-width: 992px) {
+  .navbar-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar-center {
+    margin-bottom: 10px;
+  }
+  
+  .navbar-right {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+  }
+}
